@@ -55,7 +55,7 @@ void draw() {
  fill(255);
  ellipse(630,400,95,95);
  
- noStroke();
+noStroke();
  fill(0,0,204);
  ellipse(589,390,20,20);
  noStroke();
