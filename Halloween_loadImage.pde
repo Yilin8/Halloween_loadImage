@@ -13,7 +13,7 @@ void setup() {
   thanks = loadImage ("thanks.jpg");
   food = loadImage ("food.jpg");
   heart1 = loadImage("heart1.jpg");
-  image(thanks,0,0,800,500);
+  image(thanks,0,0);
   image(food,230,300,280,150);
 }
 
