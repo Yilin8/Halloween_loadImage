@@ -1,6 +1,6 @@
 //Click and Drag your cursor to "carve" the pumpkins
-PImage thanks;
-PImage food;
+//PImage thanks;
+//PImage food;
 PImage heart1;
 float x=300;
 float ball=200;
@@ -10,11 +10,11 @@ float cat=180;
 void setup() {
   size(800,500);
   frameRate(3);
-  thanks = loadImage ("thanks.jpg");
-  food = loadImage ("food.jpg");
+  //thanks = loadImage ("thanks.jpg");
+  //food = loadImage ("food.jpg");
   heart1 = loadImage("heart1.jpg");
-  image(thanks,0,0);
-  image(food,230,300,280,150);
+  //image(thanks,0,0);
+  //image(food,230,300,280,150);
 }
 
 void draw() {
