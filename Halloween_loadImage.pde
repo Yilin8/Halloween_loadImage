@@ -10,6 +10,7 @@ float cat=180;
 void setup() {
   size(800,500);
   frameRate(3);
+  background(255,random(255),random(255));
   //thanks = loadImage ("thanks.jpg");
   //food = loadImage ("food.jpg");
   heart1 = loadImage("heart1.jpg");
@@ -20,7 +21,6 @@ void setup() {
 void draw() {
   //image(thanks,0,0,800,500);
   //image(food,230,300,280,150);
-  background(255,random(255),random(255));
   image(heart1,mouseX,mouseY,50,50);
   
   
